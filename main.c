@@ -119,7 +119,7 @@ double evaluate_postfix(char postfix[]) {
 }
 
 int main(){
-	   setlocale(LC_ALL, "Portuguese");
+setlocale(LC_ALL, "Portuguese");
     char infix[MAX_EXPR_SIZE];
     char postfix[MAX_EXPR_SIZE];
     printf("Digite a expressão: ");
